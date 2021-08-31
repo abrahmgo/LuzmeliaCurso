@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6EA8A7326DDC674002379E2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7226DDC674002379E2 /* Person.swift */; };
+		B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7426DDD363002379E2 /* Lists.swift */; };
 		B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */; };
 		B6ECAE9426D9BA10009AD9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9326D9BA10009AD9B1 /* SceneDelegate.swift */; };
 		B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9526D9BA10009AD9B1 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6EA8A7226DDC674002379E2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B6EA8A7426DDD363002379E2 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		B6ECAE8E26D9BA10009AD9B1 /* iOSLuzmelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLuzmelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6ECAE9326D9BA10009AD9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6EA8A7126DDC667002379E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6EA8A7226DDC674002379E2 /* Person.swift */,
+				B6EA8A7426DDD363002379E2 /* Lists.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B6ECAE8526D9BA10009AD9B1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B6EA8A7126DDC667002379E2 /* Models */,
 				B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */,
 				B6ECAE9326D9BA10009AD9B1 /* SceneDelegate.swift */,
 				B6ECAE9526D9BA10009AD9B1 /* ViewController.swift */,
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
+				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
+				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,
 				B6ECAE9426D9BA10009AD9B1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
