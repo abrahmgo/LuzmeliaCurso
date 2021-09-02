@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C026E0717800599899 /* LoginUseCaseType.swift */; };
+		B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C326E0736400599899 /* CollectionViewCell.swift */; };
+		B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62248C426E0736400599899 /* CollectionViewCell.xib */; };
 		B6EA8A7326DDC674002379E2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7226DDC674002379E2 /* Person.swift */; };
 		B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7426DDD363002379E2 /* Lists.swift */; };
 		B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62248C026E0717800599899 /* LoginUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseType.swift; sourceTree = "<group>"; };
+		B62248C326E0736400599899 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B62248C426E0736400599899 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		B6EA8A7226DDC674002379E2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B6EA8A7426DDD363002379E2 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		B6ECAE8E26D9BA10009AD9B1 /* iOSLuzmelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLuzmelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62248BF26E0716C00599899 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B62248C026E0717800599899 /* LoginUseCaseType.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B62248C226E0734D00599899 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B62248C326E0736400599899 /* CollectionViewCell.swift */,
+				B62248C426E0736400599899 /* CollectionViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B6EA8A7126DDC667002379E2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +92,8 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B62248C226E0734D00599899 /* Components */,
+				B62248BF26E0716C00599899 /* UseCases */,
 				B6EA8A7126DDC667002379E2 /* Models */,
 				B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */,
 				B6ECAE9326D9BA10009AD9B1 /* SceneDelegate.swift */,
@@ -140,6 +165,7 @@
 			files = (
 				B6ECAE9E26D9BA11009AD9B1 /* LaunchScreen.storyboard in Resources */,
 				B6ECAE9B26D9BA11009AD9B1 /* Assets.xcassets in Resources */,
+				B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */,
 				B6ECAE9926D9BA10009AD9B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
+				B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */,
 				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
+				B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */,
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
 				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,
 				B6ECAE9426D9BA10009AD9B1 /* SceneDelegate.swift in Sources */,
