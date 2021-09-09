@@ -10,28 +10,28 @@ import UIKit
 class DashboardViewController: UIViewController {
     
     var btnGoToBack: UIButton?
+    var btnToGoForward: UIButton?
     
     // es la primer en ejecutarse
     override func viewDidLoad() {
         print("primer metodo en ejecutarse")
         
         view.backgroundColor = .white
-        let btnOrigin = CGPoint(x: 0.0, y: 0.0)
-        let btnSize = CGSize(width: 200, height: 200)
-        let btnFrame = CGRect(origin: btnOrigin, size: btnSize)
-        btnGoToBack = UIButton(frame: btnFrame)
-        btnGoToBack?.setTitle("hola", for: .normal)
-        btnGoToBack?.setTitleColor(.blue, for: .normal)
-        btnGoToBack?.addTarget(self, action: #selector(goToRoot), for: .touchUpInside)
-        
-        if let button = btnGoToBack {
-            view.addSubview(button)
-        }
+                
+        createButtons()
+        addConstrainsButtonForward()
+        addConstrainsButtonBack()
     }
 
     @objc func goToRoot() {
-        // regresar a vistas anteriores
         navigationController?.popToRootViewController(animated: true)
+        
+    }
+    
+    @objc func goToNext() {
+        let profileViewController = ProfileViewController()
+        // regresar a vistas anteriores
+        navigationController?.pushViewController(profileViewController, animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {

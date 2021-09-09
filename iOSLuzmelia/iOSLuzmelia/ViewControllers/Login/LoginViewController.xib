@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,14 +19,17 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Login View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzV-Ka-zLC">
-                    <rect key="frame" x="126" y="226" width="163" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzV-Ka-zLC">
+                    <rect key="frame" x="125.5" y="226" width="163" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="oHT-9J-cPX"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqg-6O-rED">
-                    <rect key="frame" x="150" y="459" width="115" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqg-6O-rED">
+                    <rect key="frame" x="149.5" y="459" width="115" height="30"/>
                     <state key="normal" title="Go to dashboard"/>
                     <connections>
                         <action selector="goToDashboard:" destination="-1" eventType="touchUpInside" id="6CC-Wb-iG4"/>
@@ -36,12 +39,10 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Bqg-6O-rED" secondAttribute="bottom" constant="373" id="GEa-Cq-eTd"/>
-                <constraint firstItem="kzV-Ka-zLC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZUc-y3-B3p"/>
-                <constraint firstItem="kzV-Ka-zLC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="126" id="bqB-F2-QOs"/>
-                <constraint firstItem="Bqg-6O-rED" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="150" id="nqv-S5-t7T"/>
-                <constraint firstItem="kzV-Ka-zLC" firstAttribute="centerX" secondItem="Bqg-6O-rED" secondAttribute="centerX" id="wQ1-Hd-ips"/>
-                <constraint firstItem="kzV-Ka-zLC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="182" id="ypv-LB-adR"/>
+                <constraint firstItem="kzV-Ka-zLC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="182" id="FxF-rS-2h8"/>
+                <constraint firstItem="Bqg-6O-rED" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Kqi-lf-whS"/>
+                <constraint firstItem="Bqg-6O-rED" firstAttribute="top" secondItem="kzV-Ka-zLC" secondAttribute="bottom" constant="212" id="MOK-hT-UPC"/>
+                <constraint firstItem="kzV-Ka-zLC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="R6Y-ES-SMU"/>
             </constraints>
             <point key="canvasLocation" x="139" y="153"/>
         </view>
