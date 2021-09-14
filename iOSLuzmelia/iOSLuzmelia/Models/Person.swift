@@ -9,10 +9,14 @@ import Foundation
 
 class Person {
     
+    var name: String
+    var lastName: String
     var age: Int
     
-    init(age: Int) {
+    init(age: Int, name: String, lastName: String) {
         self.age = age
+        self.name = name
+        self.lastName = lastName
     }
     
     func agePlus5Years() {

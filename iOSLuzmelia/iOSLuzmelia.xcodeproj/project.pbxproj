@@ -10,6 +10,11 @@
 		B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B2BD826E7027900CE84D0 /* LoginViewController.swift */; };
 		B60B2BDB26E7027900CE84D0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60B2BD926E7027900CE84D0 /* LoginViewController.xib */; };
 		B60B2BDE26E7084800CE84D0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */; };
+		B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6117E9526F0447E00B36DC0 /* ProfileCollectionViewController.swift */; };
+		B6117E9826F0447E00B36DC0 /* ProfileCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6117E9626F0447E00B36DC0 /* ProfileCollectionViewController.xib */; };
+		B6117E9C26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6117E9A26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift */; };
+		B6117E9D26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6117E9B26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib */; };
+		B6117E9F26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6117E9E26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift */; };
 		B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C026E0717800599899 /* LoginUseCaseType.swift */; };
 		B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C326E0736400599899 /* CollectionViewCell.swift */; };
 		B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62248C426E0736400599899 /* CollectionViewCell.xib */; };
@@ -25,6 +30,11 @@
 		B60B2BD826E7027900CE84D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B60B2BD926E7027900CE84D0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B6117E9526F0447E00B36DC0 /* ProfileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewController.swift; sourceTree = "<group>"; };
+		B6117E9626F0447E00B36DC0 /* ProfileCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewController.xib; sourceTree = "<group>"; };
+		B6117E9A26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6117E9B26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalDataCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6117E9E26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileCollectionViewController+Delegate.swift"; sourceTree = "<group>"; };
 		B62248C026E0717800599899 /* LoginUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseType.swift; sourceTree = "<group>"; };
 		B62248C326E0736400599899 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B62248C426E0736400599899 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
@@ -52,6 +62,7 @@
 		B60B2BD626E701D300CE84D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B6117E9426F0434600B36DC0 /* Profile */,
 				B60B2BDC26E7082400CE84D0 /* Dashboard */,
 				B60B2BD726E701DF00CE84D0 /* Login */,
 			);
@@ -73,6 +84,26 @@
 				B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */,
 			);
 			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B6117E9426F0434600B36DC0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B6117E9926F046AA00B36DC0 /* Components */,
+				B6117E9526F0447E00B36DC0 /* ProfileCollectionViewController.swift */,
+				B6117E9626F0447E00B36DC0 /* ProfileCollectionViewController.xib */,
+				B6117E9E26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B6117E9926F046AA00B36DC0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B6117E9A26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift */,
+				B6117E9B26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		B62248BF26E0716C00599899 /* UseCases */ = {
@@ -194,6 +225,8 @@
 				B6ECAE9E26D9BA11009AD9B1 /* LaunchScreen.storyboard in Resources */,
 				B6ECAE9B26D9BA11009AD9B1 /* Assets.xcassets in Resources */,
 				B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */,
+				B6117E9D26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib in Resources */,
+				B6117E9826F0447E00B36DC0 /* ProfileCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */,
+				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
 				B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */,
+				B6117E9C26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift in Sources */,
 				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
+				B6117E9F26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift in Sources */,
 				B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */,
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
 				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,

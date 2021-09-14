@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        window?.makeKeyAndVisible()
         
         window = UIWindow()
-        let loginViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
-        let navigationController = UINavigationController(rootViewController: loginViewController)
+        let profileViewController = ProfileCollectionViewController(nibName: "ProfileCollectionViewController", bundle: nil)
+        let navigationController = UINavigationController(rootViewController: profileViewController)
         // investigar como quitar esa separacion del navigation controller
         // navigation bar
         
