@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,9 +24,33 @@
 		B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9526D9BA10009AD9B1 /* ViewController.swift */; };
 		B6ECAE9B26D9BA11009AD9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6ECAE9A26D9BA11009AD9B1 /* Assets.xcassets */; };
 		B6ECAE9E26D9BA11009AD9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ECAE9C26D9BA11009AD9B1 /* LaunchScreen.storyboard */; };
+		B6F40E8226F57A5600E4EFC0 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B6F40E8126F57A5600E4EFC0 /* Nuke */; };
+		B6F40E8626F57C3200E4EFC0 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F40E8426F57C3200E4EFC0 /* LottieViewController.swift */; };
+		B6F40E8726F57C3200E4EFC0 /* LottieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6F40E8526F57C3200E4EFC0 /* LottieViewController.xib */; };
+		B6F40E8B26F57CC800E4EFC0 /* 30221-bubbles.json in Resources */ = {isa = PBXBuildFile; fileRef = B6F40E8A26F57CC800E4EFC0 /* 30221-bubbles.json */; };
+		B6F40EA526F582D800E4EFC0 /* Theme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F40EA426F582D800E4EFC0 /* Theme.framework */; };
+		B6F40EA626F582D800E4EFC0 /* Theme.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6F40EA426F582D800E4EFC0 /* Theme.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EF75EB96FD65BE076B2BFE0A /* Pods_iOSLuzmelia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DCE0EE621147BDA294D4DA /* Pods_iOSLuzmelia.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B6F40EA726F582D800E4EFC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6F40EA626F582D800E4EFC0 /* Theme.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		39DCE0EE621147BDA294D4DA /* Pods_iOSLuzmelia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLuzmelia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E55F449916B4FACF5A7F75 /* Pods-iOSLuzmelia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLuzmelia.release.xcconfig"; path = "Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia.release.xcconfig"; sourceTree = "<group>"; };
+		A4EFD4C50FFBFF4579034905 /* Pods-iOSLuzmelia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLuzmelia.debug.xcconfig"; path = "Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia.debug.xcconfig"; sourceTree = "<group>"; };
 		B60B2BD826E7027900CE84D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B60B2BD926E7027900CE84D0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +70,10 @@
 		B6ECAE9A26D9BA11009AD9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6ECAE9D26D9BA11009AD9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6ECAE9F26D9BA11009AD9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F40E8426F57C3200E4EFC0 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		B6F40E8526F57C3200E4EFC0 /* LottieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LottieViewController.xib; sourceTree = "<group>"; };
+		B6F40E8A26F57CC800E4EFC0 /* 30221-bubbles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "30221-bubbles.json"; sourceTree = "<group>"; };
+		B6F40EA426F582D800E4EFC0 /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,15 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF75EB96FD65BE076B2BFE0A /* Pods_iOSLuzmelia.framework in Frameworks */,
+				B6F40E8226F57A5600E4EFC0 /* Nuke in Frameworks */,
+				B6F40EA526F582D800E4EFC0 /* Theme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		888E7099AD174B81B4CA279D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F40EA426F582D800E4EFC0 /* Theme.framework */,
+				39DCE0EE621147BDA294D4DA /* Pods_iOSLuzmelia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B60B2BD626E701D300CE84D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B6F40E8326F57C2000E4EFC0 /* Lottie */,
 				B6117E9426F0434600B36DC0 /* Profile */,
 				B60B2BDC26E7082400CE84D0 /* Dashboard */,
 				B60B2BD726E701DF00CE84D0 /* Login */,
@@ -137,6 +178,8 @@
 			children = (
 				B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */,
 				B6ECAE8F26D9BA10009AD9B1 /* Products */,
+				D09030595770EC501C4939A9 /* Pods */,
+				888E7099AD174B81B4CA279D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,17 +194,52 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B6F40E8826F57CAC00E4EFC0 /* Rosources */,
 				B60B2BD626E701D300CE84D0 /* ViewControllers */,
 				B62248C226E0734D00599899 /* Components */,
 				B62248BF26E0716C00599899 /* UseCases */,
 				B6EA8A7126DDC667002379E2 /* Models */,
 				B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */,
 				B6ECAE9526D9BA10009AD9B1 /* ViewController.swift */,
-				B6ECAE9A26D9BA11009AD9B1 /* Assets.xcassets */,
 				B6ECAE9C26D9BA11009AD9B1 /* LaunchScreen.storyboard */,
 				B6ECAE9F26D9BA11009AD9B1 /* Info.plist */,
 			);
 			path = iOSLuzmelia;
+			sourceTree = "<group>";
+		};
+		B6F40E8326F57C2000E4EFC0 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B6F40E8426F57C3200E4EFC0 /* LottieViewController.swift */,
+				B6F40E8526F57C3200E4EFC0 /* LottieViewController.xib */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B6F40E8826F57CAC00E4EFC0 /* Rosources */ = {
+			isa = PBXGroup;
+			children = (
+				B6F40E8926F57CBC00E4EFC0 /* Lotties */,
+				B6ECAE9A26D9BA11009AD9B1 /* Assets.xcassets */,
+			);
+			path = Rosources;
+			sourceTree = "<group>";
+		};
+		B6F40E8926F57CBC00E4EFC0 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				B6F40E8A26F57CC800E4EFC0 /* 30221-bubbles.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		D09030595770EC501C4939A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFD4C50FFBFF4579034905 /* Pods-iOSLuzmelia.debug.xcconfig */,
+				58E55F449916B4FACF5A7F75 /* Pods-iOSLuzmelia.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,15 +249,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6ECAEA226D9BA11009AD9B1 /* Build configuration list for PBXNativeTarget "iOSLuzmelia" */;
 			buildPhases = (
+				6E36A923CE0807D385F2B2B8 /* [CP] Check Pods Manifest.lock */,
 				B6ECAE8A26D9BA10009AD9B1 /* Sources */,
 				B6ECAE8B26D9BA10009AD9B1 /* Frameworks */,
 				B6ECAE8C26D9BA10009AD9B1 /* Resources */,
+				4A51FCB8DC9905891EFC4F00 /* [CP] Embed Pods Frameworks */,
+				B6F40EA726F582D800E4EFC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = iOSLuzmelia;
+			packageProductDependencies = (
+				B6F40E8126F57A5600E4EFC0 /* Nuke */,
+			);
 			productName = iOSLuzmelia;
 			productReference = B6ECAE8E26D9BA10009AD9B1 /* iOSLuzmelia.app */;
 			productType = "com.apple.product-type.application";
@@ -207,6 +291,9 @@
 				Base,
 			);
 			mainGroup = B6ECAE8526D9BA10009AD9B1;
+			packageReferences = (
+				B6F40E8026F57A5600E4EFC0 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = B6ECAE8F26D9BA10009AD9B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -223,14 +310,58 @@
 			files = (
 				B60B2BDB26E7027900CE84D0 /* LoginViewController.xib in Resources */,
 				B6ECAE9E26D9BA11009AD9B1 /* LaunchScreen.storyboard in Resources */,
+				B6F40E8726F57C3200E4EFC0 /* LottieViewController.xib in Resources */,
 				B6ECAE9B26D9BA11009AD9B1 /* Assets.xcassets in Resources */,
 				B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */,
 				B6117E9D26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib in Resources */,
+				B6F40E8B26F57CC800E4EFC0 /* 30221-bubbles.json in Resources */,
 				B6117E9826F0447E00B36DC0 /* ProfileCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A51FCB8DC9905891EFC4F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E36A923CE0807D385F2B2B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSLuzmelia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6ECAE8A26D9BA10009AD9B1 /* Sources */ = {
@@ -238,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */,
+				B6F40E8626F57C3200E4EFC0 /* LottieViewController.swift in Sources */,
 				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
 				B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */,
@@ -383,6 +515,7 @@
 		};
 		B6ECAEA326D9BA11009AD9B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EFD4C50FFBFF4579034905 /* Pods-iOSLuzmelia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -401,6 +534,7 @@
 		};
 		B6ECAEA426D9BA11009AD9B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E55F449916B4FACF5A7F75 /* Pods-iOSLuzmelia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +573,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6F40E8026F57A5600E4EFC0 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6F40E8126F57A5600E4EFC0 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6F40E8026F57A5600E4EFC0 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6ECAE8626D9BA10009AD9B1 /* Project object */;
 }

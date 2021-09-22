@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        window?.makeKeyAndVisible()
         
         window = UIWindow()
-        let profileViewController = ProfileCollectionViewController(nibName: "ProfileCollectionViewController", bundle: nil)
-        let navigationController = UINavigationController(rootViewController: profileViewController)
+        let lottieViewController = LottieViewController(nibName: "LottieViewController", bundle: nil)
+        let navigationController = UINavigationController(rootViewController: lottieViewController)
         // investigar como quitar esa separacion del navigation controller
         // navigation bar
         

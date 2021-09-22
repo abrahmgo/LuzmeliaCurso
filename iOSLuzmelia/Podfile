@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+# declarar el archivo de proyectos (archivo en blanco)
+workspace 'iOSLuzmelia'
+
+def animations
+  pod 'lottie-ios'
+  pod 'SwiftLint'
+end
+
+target 'iOSLuzmelia' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSLuzmelia
+  # por for animations
+  animations
+
+end
+
+target 'Theme' do
+  project '../Theme/Theme/Theme'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSLuzmelia
+  # por for animations
+  animations
+
+end
