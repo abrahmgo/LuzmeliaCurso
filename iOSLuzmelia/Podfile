@@ -16,6 +16,7 @@ target 'iOSLuzmelia' do
   # Pods for iOSLuzmelia
   # por for animations
   animations
+  pod 'RealmSwift'
 
 end
 

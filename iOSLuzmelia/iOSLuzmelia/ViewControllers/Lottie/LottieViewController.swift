@@ -8,28 +8,61 @@
 import UIKit
 import Lottie
 import Theme
+import CoreData
 
 class LottieViewController: UIViewController {
 
-    var animationView: AnimationView?
+//    var animationView: AnimationView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = GlobalColors.black
+//        if MainUserDefaults.isSplash {
+//            print("nothing")
+//        } else {
+//            showLoader(true)
+//        }
         
-        let animation = Animation.named("30221-bubbles")
-        animationView = AnimationView(animation: animation)
+//        view.backgroundColor = GlobalColors.black
+//
+//        let animation = Animation.named("30221-bubbles")
+//        animationView = AnimationView(animation: animation)
+//
+//        animationView?.frame = view.frame
+//        animationView?.contentMode = .scaleAspectFill
+//        animationView?.loopMode = .loop
+//        animationView?.animationSpeed = 0.5
+//
+//        guard let animationView = animationView else {
+//            return
+//        }
+//        view.addSubview(animationView)
+//        animationView.play()
         
-        animationView?.frame = view.frame
-        animationView?.contentMode = .scaleAspectFill
-        animationView?.loopMode = .loop
-        animationView?.animationSpeed = 0.5
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+//            self.showLoader(false)
+//            MainUserDefaults.isSplash = true
+//        }
         
-        guard let animationView = animationView else {
-            return
+        // REALM
+//        MainRealm.shared.write()
+//
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+//            MainRealm.shared.read()
+//        }
+        
+        
+        // COREDATA
+        
+        let context = MainCoreData.shared.persistentContainer.viewContext
+        let entity = NSEntityDescription.entity(forEntityName: "Store2", in: context)
+        let newStore = NSManagedObject(entity: entity!, insertInto: context)
+        
+        newStore.setValue("Test", forKey: "name")
+        
+        MainCoreData.shared.saveContext()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            MainCoreData.shared.getContext(entity: "Store2")
         }
-        view.addSubview(animationView)
-        animationView.play()
     }
 }

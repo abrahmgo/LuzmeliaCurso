@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B600E40426FC0C1600A2F0A3 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B600E40326FC0C1600A2F0A3 /* Loading.swift */; };
+		B600E40626FC0C6400A2F0A3 /* LottieLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B600E40526FC0C6400A2F0A3 /* LottieLoader.swift */; };
+		B600E40A26FC1A9A00A2F0A3 /* MainUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B600E40926FC1A9A00A2F0A3 /* MainUserDefaults.swift */; };
 		B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B2BD826E7027900CE84D0 /* LoginViewController.swift */; };
 		B60B2BDB26E7027900CE84D0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60B2BD926E7027900CE84D0 /* LoginViewController.xib */; };
 		B60B2BDE26E7084800CE84D0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */; };
@@ -18,6 +21,9 @@
 		B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C026E0717800599899 /* LoginUseCaseType.swift */; };
 		B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C326E0736400599899 /* CollectionViewCell.swift */; };
 		B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62248C426E0736400599899 /* CollectionViewCell.xib */; };
+		B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CECF26FC207C00EAC23C /* MainRealm.swift */; };
+		B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CED226FC25AC00EAC23C /* MainCoreData.swift */; };
+		B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */; };
 		B6EA8A7326DDC674002379E2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7226DDC674002379E2 /* Person.swift */; };
 		B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7426DDD363002379E2 /* Lists.swift */; };
 		B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */; };
@@ -51,6 +57,9 @@
 		39DCE0EE621147BDA294D4DA /* Pods_iOSLuzmelia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLuzmelia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E55F449916B4FACF5A7F75 /* Pods-iOSLuzmelia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLuzmelia.release.xcconfig"; path = "Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia.release.xcconfig"; sourceTree = "<group>"; };
 		A4EFD4C50FFBFF4579034905 /* Pods-iOSLuzmelia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLuzmelia.debug.xcconfig"; path = "Target Support Files/Pods-iOSLuzmelia/Pods-iOSLuzmelia.debug.xcconfig"; sourceTree = "<group>"; };
+		B600E40326FC0C1600A2F0A3 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		B600E40526FC0C6400A2F0A3 /* LottieLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieLoader.swift; sourceTree = "<group>"; };
+		B600E40926FC1A9A00A2F0A3 /* MainUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserDefaults.swift; sourceTree = "<group>"; };
 		B60B2BD826E7027900CE84D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B60B2BD926E7027900CE84D0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +71,9 @@
 		B62248C026E0717800599899 /* LoginUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseType.swift; sourceTree = "<group>"; };
 		B62248C326E0736400599899 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B62248C426E0736400599899 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B653CECF26FC207C00EAC23C /* MainRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRealm.swift; sourceTree = "<group>"; };
+		B653CED226FC25AC00EAC23C /* MainCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoreData.swift; sourceTree = "<group>"; };
+		B653CED526FC25FE00EAC23C /* ModelCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelCoreData.xcdatamodel; sourceTree = "<group>"; };
 		B6EA8A7226DDC674002379E2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B6EA8A7426DDD363002379E2 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		B6ECAE8E26D9BA10009AD9B1 /* iOSLuzmelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLuzmelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +111,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B600E40226FC0C0900A2F0A3 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				B600E40326FC0C1600A2F0A3 /* Loading.swift */,
+				B600E40526FC0C6400A2F0A3 /* LottieLoader.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		B600E40726FC1A6600A2F0A3 /* DataPersistent */ = {
+			isa = PBXGroup;
+			children = (
+				B653CED126FC257300EAC23C /* CoreData */,
+				B600E40B26FC1F4C00A2F0A3 /* Realm */,
+				B600E40826FC1A7500A2F0A3 /* UserDefaults */,
+			);
+			path = DataPersistent;
+			sourceTree = "<group>";
+		};
+		B600E40826FC1A7500A2F0A3 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				B600E40926FC1A9A00A2F0A3 /* MainUserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		B600E40B26FC1F4C00A2F0A3 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B653CECF26FC207C00EAC23C /* MainRealm.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
 		B60B2BD626E701D300CE84D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B600E40226FC0C0900A2F0A3 /* Loading */,
 				B6F40E8326F57C2000E4EFC0 /* Lottie */,
 				B6117E9426F0434600B36DC0 /* Profile */,
 				B60B2BDC26E7082400CE84D0 /* Dashboard */,
@@ -164,6 +212,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		B653CED126FC257300EAC23C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B653CED226FC25AC00EAC23C /* MainCoreData.swift */,
+				B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		B6EA8A7126DDC667002379E2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +251,7 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B600E40726FC1A6600A2F0A3 /* DataPersistent */,
 				B6F40E8826F57CAC00E4EFC0 /* Rosources */,
 				B60B2BD626E701D300CE84D0 /* ViewControllers */,
 				B62248C226E0734D00599899 /* Components */,
@@ -368,10 +426,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */,
+				B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */,
 				B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */,
 				B6F40E8626F57C3200E4EFC0 /* LottieViewController.swift in Sources */,
+				B600E40426FC0C1600A2F0A3 /* Loading.swift in Sources */,
+				B600E40626FC0C6400A2F0A3 /* LottieLoader.swift in Sources */,
+				B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */,
 				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
+				B600E40A26FC1A9A00A2F0A3 /* MainUserDefaults.swift in Sources */,
 				B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */,
 				B6117E9C26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift in Sources */,
 				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
@@ -592,6 +656,19 @@
 			productName = Nuke;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B653CED526FC25FE00EAC23C /* ModelCoreData.xcdatamodel */,
+			);
+			currentVersion = B653CED526FC25FE00EAC23C /* ModelCoreData.xcdatamodel */;
+			path = ModelCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B6ECAE8626D9BA10009AD9B1 /* Project object */;
 }
