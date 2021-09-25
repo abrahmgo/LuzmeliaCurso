@@ -13,7 +13,7 @@ import CoreData
 class LottieViewController: UIViewController {
 
 //    var animationView: AnimationView?
-    
+    let notifications = NotificationCenterModule()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -64,5 +64,16 @@ class LottieViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             MainCoreData.shared.getContext(entity: "Store2")
         }
+        
+        useClosure()
+        notifications.subscribeBackground()
+        
+        let person = Person(age: 23, name: "Juan", lastName: "Moncado")
+        NotificationCenter.default.post(name: Notification.Name("customNotification"), object: person)
+    }
+    
+    func useClosure() {
+        let myClosures = Closures()
+        myClosures.example()
     }
 }

@@ -21,6 +21,8 @@
 		B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C026E0717800599899 /* LoginUseCaseType.swift */; };
 		B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62248C326E0736400599899 /* CollectionViewCell.swift */; };
 		B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B62248C426E0736400599899 /* CollectionViewCell.xib */; };
+		B62F0AE126FE9F57006983C2 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62F0AE026FE9F57006983C2 /* Closures.swift */; };
+		B62F0AE326FEA66E006983C2 /* NotificationCenterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62F0AE226FEA66E006983C2 /* NotificationCenterModule.swift */; };
 		B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CECF26FC207C00EAC23C /* MainRealm.swift */; };
 		B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CED226FC25AC00EAC23C /* MainCoreData.swift */; };
 		B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */; };
@@ -71,6 +73,8 @@
 		B62248C026E0717800599899 /* LoginUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCaseType.swift; sourceTree = "<group>"; };
 		B62248C326E0736400599899 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B62248C426E0736400599899 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B62F0AE026FE9F57006983C2 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		B62F0AE226FEA66E006983C2 /* NotificationCenterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterModule.swift; sourceTree = "<group>"; };
 		B653CECF26FC207C00EAC23C /* MainRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRealm.swift; sourceTree = "<group>"; };
 		B653CED226FC25AC00EAC23C /* MainCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoreData.swift; sourceTree = "<group>"; };
 		B653CED526FC25FE00EAC23C /* ModelCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelCoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -212,6 +216,15 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		B62F0ADF26FE9EFF006983C2 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				B62F0AE026FE9F57006983C2 /* Closures.swift */,
+				B62F0AE226FEA66E006983C2 /* NotificationCenterModule.swift */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
 		B653CED126FC257300EAC23C /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +264,7 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B62F0ADF26FE9EFF006983C2 /* Closures */,
 				B600E40726FC1A6600A2F0A3 /* DataPersistent */,
 				B6F40E8826F57CAC00E4EFC0 /* Rosources */,
 				B60B2BD626E701D300CE84D0 /* ViewControllers */,
@@ -434,12 +448,14 @@
 				B600E40626FC0C6400A2F0A3 /* LottieLoader.swift in Sources */,
 				B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */,
 				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
+				B62F0AE126FE9F57006983C2 /* Closures.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
 				B600E40A26FC1A9A00A2F0A3 /* MainUserDefaults.swift in Sources */,
 				B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */,
 				B6117E9C26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift in Sources */,
 				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
 				B6117E9F26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift in Sources */,
+				B62F0AE326FEA66E006983C2 /* NotificationCenterModule.swift in Sources */,
 				B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */,
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
 				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,

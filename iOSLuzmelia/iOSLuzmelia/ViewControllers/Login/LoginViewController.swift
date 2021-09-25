@@ -16,10 +16,24 @@ class LoginViewController: UIViewController {
 
         title = "Login View Controller"
         // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(customNotification(_:)),
+                                               name: NSNotification.Name("customNotification"),
+                                               object: nil)
+    }
+    
+    
+    @objc func customNotification(_ notification: Notification?) {
+        
+        guard let person = notification?.object as? Person else {
+            return
+        }
+        dump("recibi notificacion")
+        dump(person)
     }
     
     @IBAction func goToDashboard(_ sender: Any) {
-        let dashboardViewController = DashboardViewController()
+        let dashboardViewController = LottieViewController()
         // pushear nuevas vistar
         navigationController?.pushViewController(dashboardViewController, animated: true)
         

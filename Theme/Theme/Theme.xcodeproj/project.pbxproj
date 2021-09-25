@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B6F40E9B26F581D400E4EFC0 /* Theme.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F40E9926F581D400E4EFC0 /* Theme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F40EA326F581FE00E4EFC0 /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F40EA226F581FE00E4EFC0 /* GlobalColors.swift */; };
+		D4B52DD9D2ECD89867A178FE /* Pods_Theme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA228EA684145E3ABFE03AF /* Pods_Theme.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01D08BA7E2953E2B6626AB8C /* Pods-Theme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theme.release.xcconfig"; path = "Target Support Files/Pods-Theme/Pods-Theme.release.xcconfig"; sourceTree = "<group>"; };
+		0BA228EA684145E3ABFE03AF /* Pods_Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B2DDC2F723A690471FB27B /* Pods-Theme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theme.debug.xcconfig"; path = "Target Support Files/Pods-Theme/Pods-Theme.debug.xcconfig"; sourceTree = "<group>"; };
 		B6F40E9626F581D400E4EFC0 /* Theme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Theme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F40E9926F581D400E4EFC0 /* Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
 		B6F40E9A26F581D400E4EFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F40EA226F581FE00E4EFC0 /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +27,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B52DD9D2ECD89867A178FE /* Pods_Theme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		589AE68F2B0FB9775F49E7A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66B2DDC2F723A690471FB27B /* Pods-Theme.debug.xcconfig */,
+				01D08BA7E2953E2B6626AB8C /* Pods-Theme.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../iOSLuzmelia/Pods;
+			sourceTree = "<group>";
+		};
 		B6F40E8C26F581D400E4EFC0 = {
 			isa = PBXGroup;
 			children = (
 				B6F40E9826F581D400E4EFC0 /* Theme */,
 				B6F40E9726F581D400E4EFC0 /* Products */,
+				589AE68F2B0FB9775F49E7A4 /* Pods */,
+				E5D523431C84B5ECDF0D1E88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +65,27 @@
 		B6F40E9826F581D400E4EFC0 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				B6F40EA126F581EF00E4EFC0 /* Colors */,
 				B6F40E9926F581D400E4EFC0 /* Theme.h */,
 				B6F40E9A26F581D400E4EFC0 /* Info.plist */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		B6F40EA126F581EF00E4EFC0 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B6F40EA226F581FE00E4EFC0 /* GlobalColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		E5D523431C84B5ECDF0D1E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA228EA684145E3ABFE03AF /* Pods_Theme.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +106,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6F40E9E26F581D400E4EFC0 /* Build configuration list for PBXNativeTarget "Theme" */;
 			buildPhases = (
+				2DD4ED240BABA9E2106548AE /* [CP] Check Pods Manifest.lock */,
 				B6F40E9126F581D400E4EFC0 /* Headers */,
 				B6F40E9226F581D400E4EFC0 /* Sources */,
 				B6F40E9326F581D400E4EFC0 /* Frameworks */,
@@ -94,6 +131,7 @@
 				TargetAttributes = {
 					B6F40E9526F581D400E4EFC0 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -125,11 +163,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DD4ED240BABA9E2106548AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Theme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6F40E9226F581D400E4EFC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F40EA326F581FE00E4EFC0 /* GlobalColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +324,9 @@
 		};
 		B6F40E9F26F581D400E4EFC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B2DDC2F723A690471FB27B /* Pods-Theme.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = andrew.Theme;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,7 +350,9 @@
 		};
 		B6F40EA026F581D400E4EFC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D08BA7E2953E2B6626AB8C /* Pods-Theme.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
