@@ -30,6 +30,10 @@
 		B6A5B3AE2702B233006E4E65 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A5B3AC2702B233006E4E65 /* RxViewController.xib */; };
 		B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */; };
 		B6A5B3B22702B7C8006E4E65 /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3B12702B7C8006E4E65 /* RxViewModel.swift */; };
+		B6E674A9270559090061C86B /* NetworkingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E674A8270559090061C86B /* NetworkingType.swift */; };
+		B6E674AB27055C730061C86B /* PersonalDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E674AA27055C730061C86B /* PersonalDataAPI.swift */; };
+		B6E674AD27055D130061C86B /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E674AC27055D130061C86B /* NetworkRequest.swift */; };
+		B6E674AF270561750061C86B /* PersonalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E674AE270561750061C86B /* PersonalDataModel.swift */; };
 		B6EA8A7326DDC674002379E2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7226DDC674002379E2 /* Person.swift */; };
 		B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7426DDD363002379E2 /* Lists.swift */; };
 		B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */; };
@@ -86,6 +90,10 @@
 		B6A5B3AC2702B233006E4E65 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
 		B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalanceUseCase.swift; sourceTree = "<group>"; };
 		B6A5B3B12702B7C8006E4E65 /* RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
+		B6E674A8270559090061C86B /* NetworkingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingType.swift; sourceTree = "<group>"; };
+		B6E674AA27055C730061C86B /* PersonalDataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataAPI.swift; sourceTree = "<group>"; };
+		B6E674AC27055D130061C86B /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		B6E674AE270561750061C86B /* PersonalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataModel.swift; sourceTree = "<group>"; };
 		B6EA8A7226DDC674002379E2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B6EA8A7426DDD363002379E2 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		B6ECAE8E26D9BA10009AD9B1 /* iOSLuzmelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLuzmelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +262,17 @@
 			path = Rx;
 			sourceTree = "<group>";
 		};
+		B6E674A7270558EF0061C86B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B6E674A8270559090061C86B /* NetworkingType.swift */,
+				B6E674AA27055C730061C86B /* PersonalDataAPI.swift */,
+				B6E674AC27055D130061C86B /* NetworkRequest.swift */,
+				B6E674AE270561750061C86B /* PersonalDataModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		B6EA8A7126DDC667002379E2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +303,7 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B6E674A7270558EF0061C86B /* Networking */,
 				B62F0ADF26FE9EFF006983C2 /* Closures */,
 				B600E40726FC1A6600A2F0A3 /* DataPersistent */,
 				B6F40E8826F57CAC00E4EFC0 /* Rosources */,
@@ -461,15 +481,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E674AD27055D130061C86B /* NetworkRequest.swift in Sources */,
 				B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */,
 				B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */,
 				B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */,
 				B6F40E8626F57C3200E4EFC0 /* LottieViewController.swift in Sources */,
+				B6E674AF270561750061C86B /* PersonalDataModel.swift in Sources */,
 				B600E40426FC0C1600A2F0A3 /* Loading.swift in Sources */,
+				B6E674AB27055C730061C86B /* PersonalDataAPI.swift in Sources */,
 				B600E40626FC0C6400A2F0A3 /* LottieLoader.swift in Sources */,
 				B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */,
 				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
 				B6A5B3AD2702B233006E4E65 /* RxViewController.swift in Sources */,
+				B6E674A9270559090061C86B /* NetworkingType.swift in Sources */,
 				B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */,
 				B62F0AE126FE9F57006983C2 /* Closures.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,

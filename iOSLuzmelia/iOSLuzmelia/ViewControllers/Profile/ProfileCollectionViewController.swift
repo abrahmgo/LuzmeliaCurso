@@ -81,3 +81,6 @@ extension ProfileCollectionViewController: PersonalDataCellDelegate {
         navigationController?.pushViewController(dashboardViewController, animated: true)
     }
 }
+
+// SOLID
+// Single responsailty

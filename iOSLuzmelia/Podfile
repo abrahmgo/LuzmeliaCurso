@@ -23,6 +23,7 @@ target 'iOSLuzmelia' do
   animations
   pod 'RealmSwift'
   rx
+  pod 'Alamofire'
 
 end
 

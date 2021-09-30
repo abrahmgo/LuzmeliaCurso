@@ -23,6 +23,9 @@ class RxViewController: UIViewController {
         super.viewDidLoad()
 
         setListeners()
+        
+        showLoader(true)
+        getPersonalDataFromAPI()
     }
     
     @IBAction func goToDashboard(_ sender: UIButton) {
@@ -64,5 +67,20 @@ class RxViewController: UIViewController {
             } onDisposed: {
                 print("diposed")
             }.disposed(by: disposeBag)
+    }
+    
+    func getPersonalDataFromAPI() {
+        
+        NetworkRequest.shared.request(model: PersonalDataAPI()) { [weak self] (result: Result<PersonalDataModel,Error>) in
+            switch result {
+            case .success(let model):
+                self?.showLoader(false)
+                self?.lblTitle.text = model.title
+                print(model)
+            case .failure(let error):
+                self?.showLoader(false)
+                print(error)
+            }
+        }
     }
 }
