@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        window?.makeKeyAndVisible()
         
         window = UIWindow()
-        let lottieViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
-        let navigationController = UINavigationController(rootViewController: lottieViewController)
+        let rxViewController = RxViewController(nibName: "RxViewController", bundle: nil)
+        let navigationController = UINavigationController(rootViewController: rxViewController)
         // investigar como quitar esa separacion del navigation controller
         // navigation bar
         

@@ -26,6 +26,10 @@
 		B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CECF26FC207C00EAC23C /* MainRealm.swift */; };
 		B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CED226FC25AC00EAC23C /* MainCoreData.swift */; };
 		B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */; };
+		B6A5B3AD2702B233006E4E65 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AB2702B233006E4E65 /* RxViewController.swift */; };
+		B6A5B3AE2702B233006E4E65 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A5B3AC2702B233006E4E65 /* RxViewController.xib */; };
+		B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */; };
+		B6A5B3B22702B7C8006E4E65 /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3B12702B7C8006E4E65 /* RxViewModel.swift */; };
 		B6EA8A7326DDC674002379E2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7226DDC674002379E2 /* Person.swift */; };
 		B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA8A7426DDD363002379E2 /* Lists.swift */; };
 		B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ECAE9126D9BA10009AD9B1 /* AppDelegate.swift */; };
@@ -78,6 +82,10 @@
 		B653CECF26FC207C00EAC23C /* MainRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRealm.swift; sourceTree = "<group>"; };
 		B653CED226FC25AC00EAC23C /* MainCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoreData.swift; sourceTree = "<group>"; };
 		B653CED526FC25FE00EAC23C /* ModelCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B6A5B3AB2702B233006E4E65 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
+		B6A5B3AC2702B233006E4E65 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
+		B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalanceUseCase.swift; sourceTree = "<group>"; };
+		B6A5B3B12702B7C8006E4E65 /* RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
 		B6EA8A7226DDC674002379E2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B6EA8A7426DDD363002379E2 /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		B6ECAE8E26D9BA10009AD9B1 /* iOSLuzmelia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLuzmelia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +161,7 @@
 		B60B2BD626E701D300CE84D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B6A5B3AA2702B222006E4E65 /* Rx */,
 				B600E40226FC0C0900A2F0A3 /* Loading */,
 				B6F40E8326F57C2000E4EFC0 /* Lottie */,
 				B6117E9426F0434600B36DC0 /* Profile */,
@@ -232,6 +241,17 @@
 				B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B6A5B3AA2702B222006E4E65 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				B6A5B3AB2702B233006E4E65 /* RxViewController.swift */,
+				B6A5B3AC2702B233006E4E65 /* RxViewController.xib */,
+				B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */,
+				B6A5B3B12702B7C8006E4E65 /* RxViewModel.swift */,
+			);
+			path = Rx;
 			sourceTree = "<group>";
 		};
 		B6EA8A7126DDC667002379E2 /* Models */ = {
@@ -384,6 +404,7 @@
 				B6ECAE9E26D9BA11009AD9B1 /* LaunchScreen.storyboard in Resources */,
 				B6F40E8726F57C3200E4EFC0 /* LottieViewController.xib in Resources */,
 				B6ECAE9B26D9BA11009AD9B1 /* Assets.xcassets in Resources */,
+				B6A5B3AE2702B233006E4E65 /* RxViewController.xib in Resources */,
 				B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */,
 				B6117E9D26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib in Resources */,
 				B6F40E8B26F57CC800E4EFC0 /* 30221-bubbles.json in Resources */,
@@ -448,6 +469,8 @@
 				B600E40626FC0C6400A2F0A3 /* LottieLoader.swift in Sources */,
 				B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */,
 				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
+				B6A5B3AD2702B233006E4E65 /* RxViewController.swift in Sources */,
+				B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */,
 				B62F0AE126FE9F57006983C2 /* Closures.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
 				B600E40A26FC1A9A00A2F0A3 /* MainUserDefaults.swift in Sources */,
@@ -460,6 +483,7 @@
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
 				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,
 				B60B2BDE26E7084800CE84D0 /* DashboardViewController.swift in Sources */,
+				B6A5B3B22702B7C8006E4E65 /* RxViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

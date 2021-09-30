@@ -9,6 +9,11 @@ def animations
   pod 'SwiftLint'
 end
 
+def rx
+  pod 'RxSwift'
+  pod 'RxCocoa'
+end
+
 target 'iOSLuzmelia' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
@@ -17,6 +22,7 @@ target 'iOSLuzmelia' do
   # por for animations
   animations
   pod 'RealmSwift'
+  rx
 
 end
 
