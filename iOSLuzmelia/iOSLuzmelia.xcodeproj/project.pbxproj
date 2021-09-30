@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CABDB526F3C19100ACD521 /* ProfileHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CABDB326F3C19100ACD521 /* ProfileHeaderCollectionReusableView.swift */; };
+		29CABDB626F3C19100ACD521 /* ProfileHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CABDB426F3C19100ACD521 /* ProfileHeaderCollectionReusableView.xib */; };
 		B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B2BD826E7027900CE84D0 /* LoginViewController.swift */; };
 		B60B2BDB26E7027900CE84D0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60B2BD926E7027900CE84D0 /* LoginViewController.xib */; };
 		B60B2BDE26E7084800CE84D0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29CABDB326F3C19100ACD521 /* ProfileHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		29CABDB426F3C19100ACD521 /* ProfileHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		B60B2BD826E7027900CE84D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B60B2BD926E7027900CE84D0 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B60B2BDD26E7084800CE84D0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			children = (
 				B6117E9A26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift */,
 				B6117E9B26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib */,
+				29CABDB326F3C19100ACD521 /* ProfileHeaderCollectionReusableView.swift */,
+				29CABDB426F3C19100ACD521 /* ProfileHeaderCollectionReusableView.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60B2BDB26E7027900CE84D0 /* LoginViewController.xib in Resources */,
+				29CABDB626F3C19100ACD521 /* ProfileHeaderCollectionReusableView.xib in Resources */,
 				B6ECAE9E26D9BA11009AD9B1 /* LaunchScreen.storyboard in Resources */,
 				B6ECAE9B26D9BA11009AD9B1 /* Assets.xcassets in Resources */,
 				B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */,
@@ -245,6 +252,7 @@
 				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
 				B6117E9F26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift in Sources */,
 				B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */,
+				29CABDB526F3C19100ACD521 /* ProfileHeaderCollectionReusableView.swift in Sources */,
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
 				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,
 				B60B2BDE26E7084800CE84D0 /* DashboardViewController.swift in Sources */,
@@ -316,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -371,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

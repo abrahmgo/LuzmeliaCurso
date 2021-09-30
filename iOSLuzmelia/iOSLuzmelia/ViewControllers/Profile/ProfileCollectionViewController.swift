@@ -47,9 +47,12 @@ class ProfileCollectionViewController: UICollectionViewController {
         cell.configure(data: cellData)
         /* dependiendo el indice pintar diferentes celdas */
         // Configure the cell
-    
+        //indexPath.section (para headers)
+        
         return cell
     }
+    
+    
 }
 
 extension ProfileCollectionViewController {
