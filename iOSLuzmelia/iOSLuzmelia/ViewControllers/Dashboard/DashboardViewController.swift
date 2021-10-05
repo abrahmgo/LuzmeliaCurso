@@ -7,9 +7,14 @@
 
 import UIKit
 
+protocol DashboardDelegate: AnyObject {
+    func viewDidAppear(message: String)
+}
+
 class DashboardViewController: UIViewController {
     
     var btnGoToBack: UIButton?
+    weak var delegate: DashboardDelegate?
     
     // es la primer en ejecutarse
     override func viewDidLoad() {
@@ -44,6 +49,7 @@ class DashboardViewController: UIViewController {
         super.viewDidAppear(animated)
         
         print("se ejecuta cuando ya aparecio")
+        delegate?.viewDidAppear(message: "estoy en dashboarviewcontroller")
     }
     
     override func viewWillDisappear(_ animated: Bool) {

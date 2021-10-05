@@ -26,6 +26,11 @@
 		B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CECF26FC207C00EAC23C /* MainRealm.swift */; };
 		B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653CED226FC25AC00EAC23C /* MainCoreData.swift */; };
 		B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B653CED426FC25FE00EAC23C /* ModelCoreData.xcdatamodeld */; };
+		B68A5D57270BED3D0050E967 /* SingletonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A5D56270BED3D0050E967 /* SingletonDesign.swift */; };
+		B68A5D5B270BEE0A0050E967 /* DesignPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A5D59270BEE0A0050E967 /* DesignPatternViewController.swift */; };
+		B68A5D5C270BEE0A0050E967 /* DesignPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68A5D5A270BEE0A0050E967 /* DesignPatternViewController.xib */; };
+		B68A5D5E270BEF690050E967 /* ViewModelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A5D5D270BEF690050E967 /* ViewModelDesign.swift */; };
+		B68A5D60270BF2180050E967 /* CoordinatorDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A5D5F270BF2180050E967 /* CoordinatorDesign.swift */; };
 		B6A5B3AD2702B233006E4E65 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AB2702B233006E4E65 /* RxViewController.swift */; };
 		B6A5B3AE2702B233006E4E65 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A5B3AC2702B233006E4E65 /* RxViewController.xib */; };
 		B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */; };
@@ -86,6 +91,11 @@
 		B653CECF26FC207C00EAC23C /* MainRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRealm.swift; sourceTree = "<group>"; };
 		B653CED226FC25AC00EAC23C /* MainCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoreData.swift; sourceTree = "<group>"; };
 		B653CED526FC25FE00EAC23C /* ModelCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelCoreData.xcdatamodel; sourceTree = "<group>"; };
+		B68A5D56270BED3D0050E967 /* SingletonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonDesign.swift; sourceTree = "<group>"; };
+		B68A5D59270BEE0A0050E967 /* DesignPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternViewController.swift; sourceTree = "<group>"; };
+		B68A5D5A270BEE0A0050E967 /* DesignPatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignPatternViewController.xib; sourceTree = "<group>"; };
+		B68A5D5D270BEF690050E967 /* ViewModelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDesign.swift; sourceTree = "<group>"; };
+		B68A5D5F270BF2180050E967 /* CoordinatorDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDesign.swift; sourceTree = "<group>"; };
 		B6A5B3AB2702B233006E4E65 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		B6A5B3AC2702B233006E4E65 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
 		B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalanceUseCase.swift; sourceTree = "<group>"; };
@@ -169,6 +179,7 @@
 		B60B2BD626E701D300CE84D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B68A5D58270BEDF40050E967 /* DesignPattern */,
 				B6A5B3AA2702B222006E4E65 /* Rx */,
 				B600E40226FC0C0900A2F0A3 /* Loading */,
 				B6F40E8326F57C2000E4EFC0 /* Lottie */,
@@ -251,6 +262,25 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		B68A5D55270BED270050E967 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				B68A5D56270BED3D0050E967 /* SingletonDesign.swift */,
+				B68A5D5D270BEF690050E967 /* ViewModelDesign.swift */,
+				B68A5D5F270BF2180050E967 /* CoordinatorDesign.swift */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		B68A5D58270BEDF40050E967 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				B68A5D59270BEE0A0050E967 /* DesignPatternViewController.swift */,
+				B68A5D5A270BEE0A0050E967 /* DesignPatternViewController.xib */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
 		B6A5B3AA2702B222006E4E65 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +333,7 @@
 		B6ECAE9026D9BA10009AD9B1 /* iOSLuzmelia */ = {
 			isa = PBXGroup;
 			children = (
+				B68A5D55270BED270050E967 /* DesignPattern */,
 				B6E674A7270558EF0061C86B /* Networking */,
 				B62F0ADF26FE9EFF006983C2 /* Closures */,
 				B600E40726FC1A6600A2F0A3 /* DataPersistent */,
@@ -427,6 +458,7 @@
 				B6A5B3AE2702B233006E4E65 /* RxViewController.xib in Resources */,
 				B62248C626E0736400599899 /* CollectionViewCell.xib in Resources */,
 				B6117E9D26F046D300B36DC0 /* PersonalDataCollectionViewCell.xib in Resources */,
+				B68A5D5C270BEE0A0050E967 /* DesignPatternViewController.xib in Resources */,
 				B6F40E8B26F57CC800E4EFC0 /* 30221-bubbles.json in Resources */,
 				B6117E9826F0447E00B36DC0 /* ProfileCollectionViewController.xib in Resources */,
 			);
@@ -486,6 +518,7 @@
 				B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */,
 				B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */,
 				B6F40E8626F57C3200E4EFC0 /* LottieViewController.swift in Sources */,
+				B68A5D5B270BEE0A0050E967 /* DesignPatternViewController.swift in Sources */,
 				B6E674AF270561750061C86B /* PersonalDataModel.swift in Sources */,
 				B600E40426FC0C1600A2F0A3 /* Loading.swift in Sources */,
 				B6E674AB27055C730061C86B /* PersonalDataAPI.swift in Sources */,
@@ -504,9 +537,12 @@
 				B6117E9F26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift in Sources */,
 				B62F0AE326FEA66E006983C2 /* NotificationCenterModule.swift in Sources */,
 				B62248C526E0736400599899 /* CollectionViewCell.swift in Sources */,
+				B68A5D60270BF2180050E967 /* CoordinatorDesign.swift in Sources */,
 				B6ECAE9226D9BA10009AD9B1 /* AppDelegate.swift in Sources */,
 				B6EA8A7326DDC674002379E2 /* Person.swift in Sources */,
+				B68A5D57270BED3D0050E967 /* SingletonDesign.swift in Sources */,
 				B60B2BDE26E7084800CE84D0 /* DashboardViewController.swift in Sources */,
+				B68A5D5E270BEF690050E967 /* ViewModelDesign.swift in Sources */,
 				B6A5B3B22702B7C8006E4E65 /* RxViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
