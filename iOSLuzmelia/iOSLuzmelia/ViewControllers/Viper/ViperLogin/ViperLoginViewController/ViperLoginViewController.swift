@@ -11,6 +11,7 @@ import UIKit
 
 class ViperLoginViewController: UIViewController {
 
+    @IBOutlet weak var lblHeader: UILabel!
     @IBOutlet weak var lblTitle: UILabel!
     weak var viewPresenter: ViperLoginPresenterType?
     
@@ -27,14 +28,15 @@ class ViperLoginViewController: UIViewController {
 	override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewPresenter?.interactor?.setup()
         customizeUI()
-        
-        viewPresenter?.makeLogin(user: "312312")
+//        viewPresenter?.interactor?.setup()
+//        customizeUI()
+//
+//        viewPresenter?.makeLogin(user: "312312")
     }	
 	
     private func customizeUI() {
-        // do UI customizing
+        lblHeader.text = "login.title".localized
     }
 }
 
