@@ -31,6 +31,14 @@
 		B68A5D5C270BEE0A0050E967 /* DesignPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68A5D5A270BEE0A0050E967 /* DesignPatternViewController.xib */; };
 		B68A5D5E270BEF690050E967 /* ViewModelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A5D5D270BEF690050E967 /* ViewModelDesign.swift */; };
 		B68A5D60270BF2180050E967 /* CoordinatorDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A5D5F270BF2180050E967 /* CoordinatorDesign.swift */; };
+		B68B1FB0270E8F7500EBC387 /* ViperLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FA4270E8F7500EBC387 /* ViperLoginInteractor.swift */; };
+		B68B1FB1270E8F7500EBC387 /* ViperLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FA6270E8F7500EBC387 /* ViperLoginRouter.swift */; };
+		B68B1FB2270E8F7500EBC387 /* ViperLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FA8270E8F7500EBC387 /* ViperLoginViewController.swift */; };
+		B68B1FB3270E8F7500EBC387 /* ViperLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68B1FA9270E8F7500EBC387 /* ViperLoginViewController.xib */; };
+		B68B1FB4270E8F7500EBC387 /* ViperLoginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FAA270E8F7500EBC387 /* ViperLoginFactory.swift */; };
+		B68B1FB5270E8F7500EBC387 /* ViperLoginFactory+Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FAB270E8F7500EBC387 /* ViperLoginFactory+Dependencies.swift */; };
+		B68B1FB6270E8F7500EBC387 /* ViperLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FAD270E8F7500EBC387 /* ViperLoginPresenter.swift */; };
+		B68B1FB7270E8F7500EBC387 /* ViperLoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1FAF270E8F7500EBC387 /* ViperLoginEntity.swift */; };
 		B6A5B3AD2702B233006E4E65 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AB2702B233006E4E65 /* RxViewController.swift */; };
 		B6A5B3AE2702B233006E4E65 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A5B3AC2702B233006E4E65 /* RxViewController.xib */; };
 		B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */; };
@@ -96,6 +104,14 @@
 		B68A5D5A270BEE0A0050E967 /* DesignPatternViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignPatternViewController.xib; sourceTree = "<group>"; };
 		B68A5D5D270BEF690050E967 /* ViewModelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDesign.swift; sourceTree = "<group>"; };
 		B68A5D5F270BF2180050E967 /* CoordinatorDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDesign.swift; sourceTree = "<group>"; };
+		B68B1FA4270E8F7500EBC387 /* ViperLoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperLoginInteractor.swift; sourceTree = "<group>"; };
+		B68B1FA6270E8F7500EBC387 /* ViperLoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperLoginRouter.swift; sourceTree = "<group>"; };
+		B68B1FA8270E8F7500EBC387 /* ViperLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperLoginViewController.swift; sourceTree = "<group>"; };
+		B68B1FA9270E8F7500EBC387 /* ViperLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViperLoginViewController.xib; sourceTree = "<group>"; };
+		B68B1FAA270E8F7500EBC387 /* ViperLoginFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperLoginFactory.swift; sourceTree = "<group>"; };
+		B68B1FAB270E8F7500EBC387 /* ViperLoginFactory+Dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViperLoginFactory+Dependencies.swift"; sourceTree = "<group>"; };
+		B68B1FAD270E8F7500EBC387 /* ViperLoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperLoginPresenter.swift; sourceTree = "<group>"; };
+		B68B1FAF270E8F7500EBC387 /* ViperLoginEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperLoginEntity.swift; sourceTree = "<group>"; };
 		B6A5B3AB2702B233006E4E65 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		B6A5B3AC2702B233006E4E65 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
 		B6A5B3AF2702B60C006E4E65 /* GetBalanceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalanceUseCase.swift; sourceTree = "<group>"; };
@@ -179,6 +195,7 @@
 		B60B2BD626E701D300CE84D0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B68B1F84270E8EBB00EBC387 /* Viper */,
 				B68A5D58270BEDF40050E967 /* DesignPattern */,
 				B6A5B3AA2702B222006E4E65 /* Rx */,
 				B600E40226FC0C0900A2F0A3 /* Loading */,
@@ -279,6 +296,70 @@
 				B68A5D5A270BEE0A0050E967 /* DesignPatternViewController.xib */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		B68B1F84270E8EBB00EBC387 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FA2270E8F7500EBC387 /* ViperLogin */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		B68B1FA2270E8F7500EBC387 /* ViperLogin */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FA3270E8F7500EBC387 /* ViperLoginInteractor */,
+				B68B1FA5270E8F7500EBC387 /* ViperLoginRouter */,
+				B68B1FA7270E8F7500EBC387 /* ViperLoginViewController */,
+				B68B1FAA270E8F7500EBC387 /* ViperLoginFactory.swift */,
+				B68B1FAB270E8F7500EBC387 /* ViperLoginFactory+Dependencies.swift */,
+				B68B1FAC270E8F7500EBC387 /* ViperLoginPresenter */,
+				B68B1FAE270E8F7500EBC387 /* ViperLoginEntity */,
+			);
+			name = ViperLogin;
+			path = iOSLuzmelia/ViewControllers/Viper/ViperLogin;
+			sourceTree = SOURCE_ROOT;
+		};
+		B68B1FA3270E8F7500EBC387 /* ViperLoginInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FA4270E8F7500EBC387 /* ViperLoginInteractor.swift */,
+			);
+			path = ViperLoginInteractor;
+			sourceTree = "<group>";
+		};
+		B68B1FA5270E8F7500EBC387 /* ViperLoginRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FA6270E8F7500EBC387 /* ViperLoginRouter.swift */,
+			);
+			path = ViperLoginRouter;
+			sourceTree = "<group>";
+		};
+		B68B1FA7270E8F7500EBC387 /* ViperLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FA8270E8F7500EBC387 /* ViperLoginViewController.swift */,
+				B68B1FA9270E8F7500EBC387 /* ViperLoginViewController.xib */,
+			);
+			path = ViperLoginViewController;
+			sourceTree = "<group>";
+		};
+		B68B1FAC270E8F7500EBC387 /* ViperLoginPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FAD270E8F7500EBC387 /* ViperLoginPresenter.swift */,
+			);
+			path = ViperLoginPresenter;
+			sourceTree = "<group>";
+		};
+		B68B1FAE270E8F7500EBC387 /* ViperLoginEntity */ = {
+			isa = PBXGroup;
+			children = (
+				B68B1FAF270E8F7500EBC387 /* ViperLoginEntity.swift */,
+			);
+			path = ViperLoginEntity;
 			sourceTree = "<group>";
 		};
 		B6A5B3AA2702B222006E4E65 /* Rx */ = {
@@ -461,6 +542,7 @@
 				B68A5D5C270BEE0A0050E967 /* DesignPatternViewController.xib in Resources */,
 				B6F40E8B26F57CC800E4EFC0 /* 30221-bubbles.json in Resources */,
 				B6117E9826F0447E00B36DC0 /* ProfileCollectionViewController.xib in Resources */,
+				B68B1FB3270E8F7500EBC387 /* ViperLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,21 +599,28 @@
 				B653CED626FC25FE00EAC23C /* ModelCoreData.xcdatamodeld in Sources */,
 				B653CED026FC207C00EAC23C /* MainRealm.swift in Sources */,
 				B60B2BDA26E7027900CE84D0 /* LoginViewController.swift in Sources */,
+				B68B1FB6270E8F7500EBC387 /* ViperLoginPresenter.swift in Sources */,
 				B6F40E8626F57C3200E4EFC0 /* LottieViewController.swift in Sources */,
 				B68A5D5B270BEE0A0050E967 /* DesignPatternViewController.swift in Sources */,
 				B6E674AF270561750061C86B /* PersonalDataModel.swift in Sources */,
 				B600E40426FC0C1600A2F0A3 /* Loading.swift in Sources */,
+				B68B1FB5270E8F7500EBC387 /* ViperLoginFactory+Dependencies.swift in Sources */,
 				B6E674AB27055C730061C86B /* PersonalDataAPI.swift in Sources */,
 				B600E40626FC0C6400A2F0A3 /* LottieLoader.swift in Sources */,
 				B653CED326FC25AC00EAC23C /* MainCoreData.swift in Sources */,
 				B6117E9726F0447E00B36DC0 /* ProfileCollectionViewController.swift in Sources */,
 				B6A5B3AD2702B233006E4E65 /* RxViewController.swift in Sources */,
+				B68B1FB7270E8F7500EBC387 /* ViperLoginEntity.swift in Sources */,
 				B6E674A9270559090061C86B /* NetworkingType.swift in Sources */,
 				B6A5B3B02702B60C006E4E65 /* GetBalanceUseCase.swift in Sources */,
+				B68B1FB0270E8F7500EBC387 /* ViperLoginInteractor.swift in Sources */,
 				B62F0AE126FE9F57006983C2 /* Closures.swift in Sources */,
 				B6ECAE9626D9BA10009AD9B1 /* ViewController.swift in Sources */,
+				B68B1FB1270E8F7500EBC387 /* ViperLoginRouter.swift in Sources */,
 				B600E40A26FC1A9A00A2F0A3 /* MainUserDefaults.swift in Sources */,
 				B62248C126E0717800599899 /* LoginUseCaseType.swift in Sources */,
+				B68B1FB4270E8F7500EBC387 /* ViperLoginFactory.swift in Sources */,
+				B68B1FB2270E8F7500EBC387 /* ViperLoginViewController.swift in Sources */,
 				B6117E9C26F046D300B36DC0 /* PersonalDataCollectionViewCell.swift in Sources */,
 				B6EA8A7526DDD363002379E2 /* Lists.swift in Sources */,
 				B6117E9F26F0508B00B36DC0 /* ProfileCollectionViewController+Delegate.swift in Sources */,

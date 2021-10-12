@@ -24,8 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        window?.makeKeyAndVisible()
         
         window = UIWindow()
-        let rxViewController = DesignPatternViewController(nibName: "DesignPatternViewController", bundle: nil)
-        let navigationController = UINavigationController(rootViewController: rxViewController)
+//        let rxViewController = DesignPatternViewController(nibName: "DesignPatternViewController", bundle: nil)
+        
+        let viperLogin = ViperLoginFactory.build()
+        let navigationController = UINavigationController(rootViewController: viperLogin)
         // investigar como quitar esa separacion del navigation controller
         // navigation bar
         
